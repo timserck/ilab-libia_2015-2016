@@ -1,7 +1,9 @@
-# ilab-libia_2015-2016
+# ILAB, Webikers
 
-Explication projets
 
+ILAB, une histoire qui roule
+	
+	3 sujets, 6 groupes pour les réaliser. Toutes les 3ème années de la section Design Web & Multimédia sont répartis en 	mini-startup fictive pour repenser totalement l’expérience d’un service comme la SNCB, les banques ou encore les Libia. 		Nous avons choisi Libia.
 
 
 
