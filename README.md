@@ -29,8 +29,23 @@ TEAM
 		Timothée Serck
 
 Liens projets
-
-	http://florianvandenburg.be/libia_landing/
-	http://remidenimal.be/libia/borne/
-	http://remidenimal.be/libia/app/
-	https://medium.com/@SasakyoOfficiel/ilab-30a6f3ce0cb8
+	
+	Site de presentation
+	
+		http://florianvandenburg.be/libia_landing/
+	
+	App borne 
+	
+		http://remidenimal.be/libia/borne/
+	
+	App mobile
+	
+		http://remidenimal.be/libia/app/
+	
+	Case study
+	
+		https://medium.com/@SasakyoOfficiel/ilab-30a6f3ce0cb8
+	
+	Projet-hub
+	
+		http://adrienpierre.be/project-hub/li-bia-velo/
