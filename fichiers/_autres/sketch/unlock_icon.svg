@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="144px" height="161px" viewBox="0 0 144 161" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.3 (12081) - http://www.bohemiancoding.com/sketch -->
+    <title>lock-11-icon + lock-11-icon-path + Line + Line Copy 28 + Line + Line Copy 29</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="index" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="lock-11-icon-+-lock-11-icon-path-+-Line-+-Line-Copy-28-+-Line-+-Line-Copy-29" sketch:type="MSLayerGroup" transform="translate(2.000000, 0.000000)">
+            <path d="M130.145631,73.3801189 L130.145631,161 L10.1456311,161 L10.1456311,73.3801189 L130.145631,73.3801189 L130.145631,73.3801189 Z M81.4830097,110.191748 C81.4830097,103.930155 76.4072233,98.8543689 70.1456311,98.8543689 C63.8840388,98.8543689 58.8082524,103.930155 58.8082524,110.191748 C58.8082524,113.471609 60.2014903,116.424786 62.4273956,118.494488 C64.2686699,120.205592 65.3167476,122.609536 65.3167476,125.122655 L65.3167476,134.756068 L74.9745146,134.756068 L74.9745146,125.123075 C74.9745146,122.608277 76.0217524,120.206852 77.8638665,118.494908 C80.0906117,116.424786 81.4830097,113.471609 81.4830097,110.191748 L81.4830097,110.191748 Z" id="lock-11-icon" fill="#50E395" sketch:type="MSShapeGroup"></path>
+            <path d="M70.1456311,21.592233 C56.0994587,21.592233 44.671801,33.0198908 44.671801,47.066483 L44.671801,73.3801189 L23.6766553,73.3801189 L23.6766553,47.066483 C23.6766553,21.4431675 44.5227354,0.597087379 70.1456311,0.597087379 C95.7685267,0.597087379 116.614607,21.4431675 116.614607,47.066483 L116.614607,73.3801189 L95.6194612,73.3801189 L95.6194612,47.066483 C95.6194612,33.0198908 84.1918034,21.592233 70.1456311,21.592233 L70.1456311,21.592233 Z" id="lock-11-icon-path" fill="#50E395" sketch:type="MSShapeGroup"></path>
+            <g id="Line-+-Line-Copy-28-+-Line-+-Line-Copy-29" transform="translate(0.000000, 36.000000)" stroke-linecap="square" stroke-width="4" stroke="#4990E2" sketch:type="MSShapeGroup">
+                <g id="Line-+-Line-Copy-28">
+                    <path d="M17.5,25 L0.5,25" id="Line"></path>
+                    <path d="M18.0468194,10.2531397 L3.95318063,0.74686032" id="Line-Copy-28"></path>
+                </g>
+                <g id="Line-+-Line-Copy-29" transform="translate(130.500000, 13.500000) scale(-1, 1) translate(-130.500000, -13.500000) translate(121.000000, 0.000000)">
+                    <path d="M17.5,25 L0.5,25" id="Line"></path>
+                    <path d="M18.0468194,10.2531397 L3.95318063,0.74686032" id="Line-Copy-28"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
