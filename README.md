@@ -12,17 +12,17 @@ ILAB, une histoire qui roule
 
 TEAM
 
-	Copy writter
+	copywriter
 
 		Sarah Najjar
 
-	Designer
+	Designers
 		
 		Xavier Sotomayor
 		Adrien Pierre
 		Florian Vanderburg
 
-	Développeur
+	Développeurs
 
 		Rémi Denimal
 		Rémy Martiat
