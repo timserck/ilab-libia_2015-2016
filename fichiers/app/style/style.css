@@ -1,0 +1,853 @@
+@import url("normalize.css");
+@import url("cf.css");
+
+
+
+/*----------------Style général-------------*/
+
+body{
+	line-height: 1.7;
+	font-family: "museo-sans",sans-serif;
+	font-style: normal;
+	font-weight: 300;
+}
+
+h1,.form_submit_test {
+	font-family: "futura-pt",sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	text-transform:uppercase;
+}
+
+header h1 {
+	letter-spacing:1.4px;
+}
+
+body,html{
+	height: 100%;
+	width: 100%;
+}
+
+
+p{
+	margin: 0;
+}
+
+
+h1{
+	font-weight: normal;
+	margin: 0;
+	font-size: 14px;
+	text-transform: uppercase;
+}
+
+
+ul{
+	margin: 0;
+	padding: 0;
+}
+
+
+a{
+	text-decoration: none;
+	color: white;
+}
+
+
+li{
+	list-style: none;
+}
+
+/*header{
+	position: relative;
+}*/
+
+button{
+        /*Reset's every elements apperance*/
+        background: none repeat scroll 0 0 transparent;
+        border: medium none;
+        border-spacing: 0;
+        color: #26589F;
+        font-size: 16px;
+        font-weight: normal;
+        line-height: 1.42rem;
+        list-style: none outside none;
+        margin: 0;
+        padding: 0;
+        text-align: left;
+        text-decoration: none;
+        text-indent: 0;
+}
+
+
+
+
+
+/*-----------------------------Layout----------------------------------*/
+
+.container{
+	width: 18em;
+	margin: 0 auto;
+
+
+}
+.espace{
+	padding-top: 132px;
+	box-sizing: border-box;
+
+}
+
+.espace_connexion{
+	padding-top: 66px;
+	box-sizing: border-box;
+}
+.container--big{
+	width: 22em;
+}
+
+
+/*----------Header---------*/
+
+header{
+	z-index: 999;
+	position: fixed;
+	top: 0; left: 0;
+	height: 66px; width: 100%;
+	
+}
+
+.header_title{
+	padding-top: 26px;
+}
+
+.header_list{
+	margin: 0 auto;
+	position: relative;
+	max-width: 18em;
+	padding-top: 22px;
+	display: block;
+	height: 22px;
+}
+
+.header_list li{
+	display: inline-block;
+}
+
+.header_list li:first-child{
+	margin-right: 15px;
+}
+
+.header_back{
+	width: 21px;
+}
+
+.header_link_profil{
+	position: absolute;
+	right: 0;
+	top: 22px;
+}
+
+
+/*----------Fin Header---------*/
+
+
+
+
+/*----------Formulaire---------*/
+
+/*.form_connexion{
+	margin-top: 68px;
+
+}
+*/
+
+input{
+	width: 88%;
+	padding: 16px 0;
+	padding-left: 12%;
+	margin:0 auto 24px;
+	display: block;
+}
+
+.form_submit{
+	margin: 0px auto 24px ;
+	display: block;
+	padding: 16px;
+	width: 100%;
+
+}
+
+.form_submit_test{
+	margin: 48px auto 24px ;
+	display: block;
+	padding: 16px 0;
+	width: 100%;
+
+}
+.form_no_compte{
+	padding: 24px 0 10px 0;
+	margin: 0 auto 24px;
+	display: block;
+	width: 165px;
+
+}
+
+.header_link_profil{
+	position: absolute;
+	display: block;
+
+}
+
+
+/*----------Fin Formulaire-----*/
+
+/*----------Accueil-----------*/
+
+.accueil_section{
+	height: 100%;
+}
+
+
+.accueil_button{
+	display: block;
+	width: 100%;
+	height: 100%;
+	line-height: 50vh;
+}
+
+.accueil_list{
+	height: 100%;
+}
+
+.accueil_list li{
+	height: 50%;
+}
+
+.accueil_main{
+	height: 100%;
+}
+/*----------Fin Accueil------*/
+
+
+/*----------Compte ---------*/
+
+
+.compte_img{
+	width: 75px;
+	display: block;
+	padding: 1.5em 1em;
+	margin: 0 auto;
+}
+
+.compte_title{
+	margin: 0;
+}
+
+.compte_list{
+	margin-top: 2.5em;
+}
+
+.compte_stat{
+	display: inline-block;
+	width: 30%;
+	margin-right: 3%;
+}
+.compte_stat:last-child{
+	margin-right: 0;
+}
+
+.compte_stat_title{
+	margin: 0;
+}
+
+.compte_logout{
+	margin: 3.5em auto ;
+	display: block;
+	width: 25%;
+	padding-left: 20px;
+	background-image: url("../_img/off.svg");
+	background-position: 3% 55%;
+	background-repeat: no-repeat;
+	background-size: 10%;
+}
+
+.compte_icone{
+	width: 40%;
+	margin: 0 auto;
+	display: block;
+}
+
+.compte_abo{
+	margin-top: .5em;
+	padding-bottom: 1em;
+}
+
+/*-------Fin Compte ---------*/
+
+
+/*----------Anim-------------*/
+
+
+.anim{
+	margin: calc(50% - 100px) auto 0;
+	position: relative;
+
+}
+
+.anim_img{
+	display: block;
+	margin: 0 auto;
+	width: 90%;
+
+}
+
+#onde1{
+	opacity: 0;
+	-webkit-animation-name:onde_anim;
+	-webkit-animation-duration:1s;
+	-webkit-animation-delay:1.5s;
+	-webkit-animation-iteration-count:infinite;
+	-webkit-animation-direction:normal;
+	-webkit-animation-play-state:running;
+	-webkit-animation-fill-mode: forwards;
+}
+
+
+@-webkit-keyframes onde_anim{
+	0% {
+		-opacity: 0;
+	}
+	50% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+	}
+}
+
+#onde2{
+	opacity: 0;
+	-webkit-animation-name:onde_anim_two;
+	-webkit-animation-duration:1s;
+	-webkit-animation-delay:1.6s;
+	-webkit-animation-iteration-count:infinite;
+	-webkit-animation-direction:normal;
+	-webkit-animation-play-state:running;
+	-webkit-animation-fill-mode: forwards;
+}
+
+
+@-webkit-keyframes onde_anim_two{
+	0% {
+		-opacity: 0;
+	}
+	50% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+	}
+}
+
+#onde3{
+	opacity: 0;
+	-webkit-animation-name:onde_anim_three;
+	-webkit-animation-duration:1s;
+	-webkit-animation-delay:1.7s;
+	-webkit-animation-iteration-count:infinite;
+	-webkit-animation-direction:normal;
+	-webkit-animation-play-state:running;
+	-webkit-animation-fill-mode: forwards;
+}
+
+
+@-webkit-keyframes onde_anim_three{
+	0% {
+		-opacity: 0;
+	}
+	50% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+	}
+}
+
+.anim_texte{
+	margin-top: 25px; 
+	color: #3a93c4;
+}
+
+
+/*-------Fin Anim------------*/
+
+
+
+
+
+
+
+/*------------------------------------------Design-----------------------------------*/
+
+
+header{
+	background: #3a93c4;
+}
+
+.header_back{
+	text-indent: -9999px;
+	background-image: url("../_img/arrow.svg");
+	background-position: center center; 
+	background-repeat: no-repeat;
+	display: block;
+}
+
+.background_header{
+	background: #3a93c4;
+}
+
+h1{
+	color: white;
+}
+
+.header_link_profil{
+	text-indent: -99999px;
+	background-image: url("../_img/profile.svg");
+	background-repeat: no-repeat;
+	background-position: center center;
+	width: 25px;
+	height: 25px;
+}
+
+
+
+/*----------Formulaire---------*/
+
+input{
+	border: 1px solid #bebebe;
+
+}
+	input:focus{
+		outline: none;
+	}
+
+	button:focus{
+		outline: none;
+	}
+
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+    color: #bebebe;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.form_submit{
+	color: white;
+	background: #20d699;
+	text-align: center;
+
+}
+
+.form_submit_test{
+	color: white;
+	background: #20d699;
+	text-align: center;
+
+}
+
+.form_no_compte{
+	text-align: center;
+	color: #a1a1a1;
+	border-bottom: 1px dotted #a1a1a1;
+}
+
+.connexion_mail{
+	background-image: url('../_img/mail.svg');
+	background-repeat: no-repeat;
+	background-position: 10px center;
+}
+
+.connexion_lock{
+	background-image: url('../_img/lock.svg');
+	background-repeat: no-repeat;
+	background-position: 10px center;
+}
+/*----------Fin Formulaire-----*/
+
+
+
+/*---------Accueil-------------*/
+
+.accueil_button{
+	text-align: center;
+	background: #20d699;
+	background-image: url("../_img/scan_icon.svg");
+	background-repeat: no-repeat;
+	background-position: center 30%;
+	font-size: 18px;
+	background-size: 12%;
+}
+
+
+.accueil_list li:first-child a{
+	background: #20b780;
+	background-image: url("../_img/velo_icon.svg");
+	background-repeat: no-repeat;
+	background-position: center 30%;
+	background-size: 12%;
+}
+
+/*------Fin Accueil-------------*/
+
+
+/*----------Compte-------------*/
+
+
+.compte_img{
+	border-radius: 50%;
+}
+
+.compte_title{
+	color: #3a93c4;
+	text-align: center;
+
+}
+
+.compte_abo{
+	font-size: 18px;
+	text-align: center;
+	color: #a1a1a1;
+}
+
+.compte_span{
+	color: #3a93c4;
+	font-size: 24px;
+}
+
+.compte_logout{
+	color: #ff6969;
+	text-align: center;
+}
+
+.compte_stat_title{
+	color: #a1a1a1;
+	text-align: center;
+}
+
+.compte_stat_info{
+	color: #3a93c4;
+	text-align: center;
+	font-size: 24px;
+}
+.compte_stat_span{
+	color: #bebebe;
+	font-size: 14px;
+	margin-left:4px;
+}
+
+.top_profile{
+	background: #f1f1f1;
+}
+/*------Fin Compte-------------*/
+
+
+
+/*-----------Anim-------------*/
+
+
+.anim_texte{
+	text-align: center;
+	color: #3a93c4;
+}
+
+
+
+/*---------Fin anim-----------*/
+
+
+/*--------carte--------------*/
+
+.volet_active{
+		transition: all 1s;
+		
+		bottom: 0 !important;
+
+}
+.volet{
+	position: absolute;
+	bottom: -445px; left: 0;
+	width: 100%; height: 500px;
+	
+		transition: all 1s;
+}
+
+
+/*-------fin carte----------*/
+
+/*slider*/
+
+		.page{
+
+			position: fixed;
+			width: 100%; height: 100%;
+			background: white;
+			display: block;
+
+			/*header*/
+			padding-top: 66px;
+			box-sizing: border-box;
+
+		}
+		.inscription_active{
+		top:0% !important;
+		transition: all 1s;
+		}
+
+		.inscription{
+		transition: all 1s;
+		
+			top: 100%; left:0;
+			
+		}
+		.connect_active{
+			right: 0% !important;
+		transition: all 1s;
+
+		}
+		.connect{
+		
+			top: 0%; right:100%;
+		transition: all 1s;
+
+
+
+		}
+			.compte_active{
+
+			bottom: 0% !important;
+		transition: all 1s;
+
+		}
+	
+		.compte{
+			z-index: 98;
+			bottom: 100%; 
+			right:0%;
+		transition: all 1s;
+
+		}
+	
+		
+		.borne_active{
+			right: 0% !important;
+		transition: all 1s;
+		}
+		.borne{
+		transition: all 1s;
+		
+			top: 0%; right:100%;
+
+		}
+			.map_active{
+		left: 0% !important;
+		transition: all 1s;
+
+
+		}
+		.map{
+			z-index: 95;
+			top: 0%; left:100%;
+			transition: all 1s;
+
+		}
+		#map_mobile{
+			position: absolute;
+			left: 0; top:0;
+			width: 100%;
+			height: 100%;
+		}
+		#pac-input{
+			margin: 66px 0 0 0; 
+			padding: 25px 0 ;
+
+			text-align: center;
+			width: 100%;
+		
+   			 display: block;
+		}
+
+		.volet_active{
+		transition: all 1s;
+		
+		bottom: 0 !important;
+
+}
+.volet{
+	position: absolute;
+	bottom: -100%; left: 0;
+	width: 100%; height: 300px;
+	background: white;
+		transition: all 1s;
+		z-index: 3;
+}
+
+.map_over{
+z-index: 2;
+background: black;
+opacity: .4;
+height: 100%;
+width: 100%;
+position: absolute;
+left: 0; bottom: 0;
+display: none;
+}
+
+.map_over_active{
+display: block !important;
+}
+
+
+/*-------fin carte----------*/
+
+/*slider*/
+
+		.page{
+
+			position: fixed;
+			width: 100%; height: 100%;
+			background: white;
+			display: block;
+
+			/*header*/
+			padding-top: 66px;
+			box-sizing: border-box;
+
+		}
+		.inscription_active{
+		top:0% !important;
+		transition: all 1s;
+		}
+
+		.inscription{
+		transition: all 1s;
+		
+			top: 100%; left:0;
+			
+		}
+		.connect_active{
+			right: 0% !important;
+		transition: all 1s;
+
+		}
+		.connect{
+		
+			top: 0%; right:100%;
+		transition: all 1s;
+
+
+
+		}
+			.compte_active{
+
+			bottom: 0% !important;
+		transition: all 1s;
+
+		}
+	
+		.compte{
+			z-index: 98;
+			bottom: 100%; 
+			right:0%;
+		transition: all 1s;
+		overflow: hidden;
+
+		}
+	
+		
+		.borne_active{
+			right: 0% !important;
+		transition: all 1s;
+		}
+		.borne{
+		transition: all 1s;
+		
+			top: 0%; right:100%;
+
+		}
+		.map_active{
+		left: 0% !important;
+		transition: all 1s;
+
+
+		}
+		.map{
+			z-index: 95;
+			top: 0%; left:100%;
+			transition: all 1s;
+
+		}
+		#map_mobile{
+			position: absolute;
+			left: 0; top:0;
+			width: 100%;
+			height: 100%;
+		}
+		#pac-input{
+			margin: 66px 0 0 0; 
+			padding: 25px 0 ;
+
+			text-align: center;
+			width: 100%;
+		
+   			 display: block;
+		}
+
+		.img_volet{
+			display: block;
+		width: 50px;
+    height: 50px;
+    margin: 5px auto;
+		}
+
+		.center{
+			padding: 0 14px;
+			text-align: center;
+		}
+		.reserver{
+			    margin:  16px auto;
+			    width: 80%;
+		}
+
+/*col-2*/
+.borneNom{
+	background: #3a93c4;
+	padding: 1em 0;
+	color: white;
+	text-align: center;
+}
+
+.callback{
+	color: #20d699;
+}
+.headerTitle{
+	text-align: center;
+}
+.compte_overflow{
+	max-height:100vh;
+	overflow-y:hidden;
+	margin: 0 auto;
+}
+
+
+/*Media queries*/
+
+
+
+@media (max-width: 20em){
+
+	.container--big{
+		width: 19em;
+	}
+
+}
+
