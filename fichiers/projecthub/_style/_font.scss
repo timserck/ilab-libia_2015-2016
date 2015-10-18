@@ -1,0 +1,22 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,800|Libre+Baskerville:400,700);
+
+html {
+	font-size: 62.5%;
+	-webkit-font-smoothing: antialiased;
+}
+
+body {
+	font-family: $Montserrat;
+	font-size: 1.8rem;
+	font-weight: $normal;
+	line-height: 1.4;
+	color: $black;
+
+	.content {
+
+		p {
+			line-height: 2.8rem;
+			font-family: $Baskerville;
+		}
+	}
+}
